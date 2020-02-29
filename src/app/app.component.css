@@ -1,3 +1,25 @@
 .styleh2{
     color:blue;
 }
+.content{
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+    width:100%;
+    max-width: 980px;
+    flex-direction: column;
+}
+.layout{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.left_layout{
+    width: 15%;
+}
+.right_layout{
+    width:50%;
+}
+input[type="text"]{
+    width: 100%;
+}

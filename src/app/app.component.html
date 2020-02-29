@@ -2,6 +2,17 @@
 <div style="text-align:center">
   <h2 class="styleh2">Welcome To marvellous Infosystems First Application</h2>
 </div>
+<div class="content">
+  <div class="layout">
+    <div class="left_layout">
+      <label>Enter Text</label>
+    </div>
+    <div class="right_layout">
+      <input type="text" (input)="myInput($event)">
+    </div>
+  </div>
+  <div class="layout">{{title}}</div>
+</div>
 
 
 <router-outlet></router-outlet>
